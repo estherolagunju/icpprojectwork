@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <tittle>
+
+    </tittle>
+    <style type="text/css">
+*{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color:rgba(252, 219, 103, 1);
+        background-position: center;
+        background-size: cover;
+        font-family: sans-serif;
+        margin-top: 40px;
+    }
+    .regform{
+        width: 700px;
+        background-color: green;
+        margin: auto;
+        color: #ffff;
+        padding: 8px 0px;
+        border-radius: 15px 15px 0px 0px;
+        text-align: center;
+    }
+    .main{
+        background-color:white;
+        width: 700px;
+        margin: auto;
+    }
+
+    form{
+        padding: 20px;
+    }
+.form-row{
+        width: 100%;
+        height: 200px;}
+         .name{
+            margin-left: 25px;
+            margin-top: 40px;
+            width: 125px;
+            color: white;
+            font-size: 14px;
+            font-weight: 300;
+        } 
+         .firstname{
+            position: relative;
+            left:57px;
+            top: 5px;
+            line-height: 25px;
+
+            padding: 0 22px;
+            font-size: 12px;
+        }
+        .lastname{
+            position: relative;
+            left:57px;
+            top: 20px;
+            line-height: 25px;            
+            padding: 0 22px;
+            font-size: 12px;
+            color: #555;
+        }
+        .firstlabel{
+            position: relative;
+            color: black;
+            text-transform: capitalize;
+            font-size: 14px;
+            left: 30px;
+            top: 5px;
+        }
+        .lastlabel{
+            position: relative;
+            color:black;
+            text-transform: capitalize;
+            font-size: 14px;
+            left: 30px;
+            top: 20px;
+        }
+        .form-control{
+            position: relative;
+            left:60px;
+            margin-top: 35px;
+            line-height: 25px;            
+            padding: 0 22px;
+            font-size: 12px;
+            color: #555;
+        }
+        .session{
+            position: relative;
+            color:black;
+            text-transform: capitalize;
+            font-size: 14px;
+            left: 30px;
+            top: -5px;
+        }
+        .sss{
+            position: relative;
+            left:75px;
+            margin-top: 40px;
+            line-height: 25px;            
+            padding: 0 22px;
+            font-size: 12px;
+            color: #555;
+        }
+        .password{
+            position: relative;
+            color:black;
+            text-transform: capitalize;
+            font-size: 14px;
+            left: 30px;
+            top: -5px;
+        }
+        .crs{
+            position: relative;
+            left:65px;
+            margin-top: 20px;
+            line-height: 25px;            
+            padding: 0 22px;
+            font-size: 12px;
+            color: #555;
+        }
+        .Confirmpassword{
+                        position: relative;
+            color:black;
+            text-transform: capitalize;
+            font-size: 14px;
+            left: 30px;
+            top: 5px;
+        }
+        .smr{
+           position: relative;
+            left:77px;
+            margin-top: 20px;
+            height: 25px;            
+            padding: 0 22px;
+            font-size: 12px;
+            color: #555; 
+        }
+         .gender{
+ position: relative;
+            color:black;
+            text-transform: capitalize;
+            font-size: 14px;
+            left: 30px;
+            top: 0px;
+        }
+        .gen{
+            position: relative;
+            left:79px;
+            margin-top: -20px;
+            height: 25px;            
+            padding: 0 22px;
+            font-size: 12px;
+            color: #555;
+        }
+        .register{
+position: relative;
+            color:black;
+            text-transform: capitalize;
+            font-size: 14px;
+            left: 30px;
+            top: 0px;
+        }
+        .reg
+        {position: relative;
+            left:55px;
+            margin-top:20px;
+            height: 25px;            
+            padding: 0 22px;
+            font-size: 12px;
+            color: #555;}
+            .hostel{
+               position: relative;
+            color:black;
+            text-transform: capitalize;
+            font-size: 14px;
+            left: 30px;
+            top: 0px; 
+            }
+            .no{
+               position: relative;
+            color:black;
+            text-transform: capitalize;
+            font-size: 14px;
+            left: 95px;
+            top:0spx;  
+            }
+            .hos{
+            position: relative;
+            left:90px;
+            margin-top:20px;
+            height: 25px;            
+            padding: 0 22px;
+            font-size: 12px;
+            color: #555;}
+
+        .options{
+    position: relative;
+            left: 200px;
+            top: -37px;
+            line-height: 40px;
+            width: 480px;
+            border-radius: 6px;
+            padding: 0 22px;
+            font-size: 16px;
+            color: #555;
+            outline: none;
+            overflow: hidden;}
+
+             button{
+    background-color: green;
+    display: block;
+    margin-top:-60px;
+    margin-left:30px;
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid #fdbf37;
+    padding: 14px 110px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    font-size:14px;}
+    </style>
+    </head>
+<body>
+<div class="regform"><h1>Admin Registration Portal</h1></div>
+    <div class="main">
+<form>
+  <div class="">
+    <div class="col">
+    <label for="inputfirstname" class="firstlabel" >First Name</label>
+      <input type="text" class="firstname" placeholder="firstname">
+    </div>
+    <div class="col">
+    <label for="inputLastname" class="lastlabel">Last Name</label>
+      <input type="text" class="lastname" placeholder="lastname">
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputsession" class="session">Session</label>
+      <input type="text" class="sss" id="inputsession" placeholder="session">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputpassword" class="password" >Password</label>
+      <input type="text" class="crs" id="inputpassword" placeholder="password">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputConfirmpassword" class="Confirmpassword" >Confirm </label>
+      <input type="text" class="smr" id="inputConfirmpassword" placeholder="Confirm password">
+    </div>
+  </div>      
+  <div class="form-row">
+   <div class="form-group col-md-4">
+      <label for="inputGender" class="gender">Gender</label>
+      <select id="inputGender" class="gen">
+        <option selected>Choose...</option>
+        <option>Male</option>
+         <option>Female</option>
+
+      </select>
+    </div>
+
+    <div class="form-group col-md-4">
+      <label for="inputregister" class="register">Register as</label>
+      <select id="inputregister" class="reg">
+        <option selected>Choose...</option>
+        <option>Hostel Warden</option>
+         <option>Hostel Rep</option>
+        
+      </select>
+    </div>
+
+       <div class="form-group col-md-4">
+      <label for="inputhostel" class="hostel" >Hostel</label>
+      <select id="inputhostel" class="hos">
+        <option selected>Choose...</option>
+        <option>BOYS</option>
+         <option>GIRLS</option>
+         </select>
+          <label for="inputhostel" class="no" >No.</label>
+      <select id="inputhostel" class="hos">
+        <option selected>Choose...</option>
+        <option>1</option>
+         <option>2</option>
+         <option>3</option>
+         <option>4</option>
+        <option>5</option>
+        <option>7</option>
+        <option>8</option>
+        <option>9</option>
+        <option>10</option>
+ </select>
+    </div>
+
+    </div>
+    <button type="submit" class="btn btn-warning">Register</button>
+</form>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+              
+

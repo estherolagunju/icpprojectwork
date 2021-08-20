@@ -1,0 +1,331 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <tittle>
+            </tittle>
+     <style type="text/css">
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color:rgba(252, 219, 103, 1);
+        background-position: center;
+        background-size: cover;
+        font-family: sans-serif;
+        margin-top: 40px;
+    }
+    .regform{
+        width: 700px;
+        background-color: green;
+        margin: auto;
+        color: #ffff;
+        padding: 8px 0px;
+        border-radius: 15px 15px 0px 0px;
+        text-align: center;
+    }
+    .main{
+        background-color:white;
+        width: 700px;
+        margin: auto;
+        
+    }
+
+    form{
+        padding: 20px;
+    }
+.form-row{
+        width: 100%;
+        height: 200px;}
+         .name{
+            margin-left: 25px;
+            margin-top: 40px;
+            width: 125px;
+            color: white;
+            font-size: 14px;
+            font-weight: 300;
+        } 
+         .firstname{
+            position: relative;
+            left:57px;
+            top: 5px;
+            line-height: 25px;
+
+            padding: 0 22px;
+            font-size: 12px;
+        }
+        .lastname{
+            position: relative;
+            left:57px;
+            top: 20px;
+            line-height: 25px;
+            
+            padding: 0 22px;
+            font-size: 12px;
+            color: #555;
+        }
+        .firstlabel{
+            position: relative;
+            color: black;
+            text-transform: capitalize;
+            font-size: 14px;
+            left: 30px;
+            top: 5px;
+        }
+        .lastlabel{
+            position: relative;
+            color:black;
+            text-transform: capitalize;
+            font-size: 14px;
+            left: 30px;
+            top: 20px;
+        }
+        .form-control{
+            position: relative;
+            left:60px;
+            margin-top: 35px;
+            line-height: 25px;            
+            padding: 0 22px;
+            font-size: 12px;
+            color: #555;
+        }
+        .dpt{
+            position: relative;
+            left:50px;
+            margin-top: 20px;
+            line-height: 25px;            
+            padding: 0 22px;
+            font-size: 12px;
+            color: #555;
+        }
+        .crs{
+            position: relative;
+            left:80px;
+            margin-top: 20px;
+            line-height: 25px;            
+            padding: 0 22px;
+            font-size: 12px;
+            color: #555;
+        }
+        .smr{
+           position: relative;
+            left:67px;
+            margin-top: 5px;
+            height: 30px;            
+            padding: 0 22px;
+            font-size: 12px;
+            color: #555; 
+        }
+        .le{
+            position: relative;
+            left:92px;
+            top: -17px;
+            height: 30px;            
+            padding: 0 22px;
+            font-size: 12px;
+            color: #555;
+        }
+        .gen{
+            position: relative;
+            left:79px;
+            margin-top: 20px;
+            height: 30px;            
+            padding: 0 22px;
+            font-size: 12px;
+            color: #555;
+        }
+
+        .matric{
+            position: relative;
+            color:black;
+            text-transform: capitalize;
+            font-size: 14px;
+            left: 30px;
+            top: 2px;
+        }
+                .department{
+            position: relative;
+            color:black;
+            text-transform: capitalize;
+            font-size: 14px;
+            left: 30px;
+            top: 2px;
+        }
+        .address{
+            position: relative;
+            color:black;
+            text-transform: capitalize;
+            font-size: 14px;
+            left: 30px;
+            top: 2px;
+        }
+        .course{
+             position: relative;
+            color:black;
+            text-transform: capitalize;
+            font-size: 14px;
+            left: 30px;
+            top: 2px;
+        }
+        .level{
+             position: relative;
+            color:black;
+            text-transform: capitalize;
+            font-size: 14px;
+            left: 30px;
+            top: -15px;
+        }
+        .semester{
+ position: relative;
+            color:black;
+            text-transform: capitalize;
+            font-size: 14px;
+            left: 30px;
+            top: 2px;
+        }
+        .gender{
+ position: relative;
+            color:black;
+            text-transform: capitalize;
+            font-size: 14px;
+            left: 30px;
+            top: 2px;
+        }
+        .options{
+    position: relative;
+            left: 200px;
+            top: -37px;
+            line-height: 40px;
+            width: 480px;
+            border-radius: 6px;
+            padding: 0 22px;
+            font-size: 16px;
+            color: #555;
+            outline: none;
+            overflow: hidden;}
+
+
+            button{
+    background-color: green;
+    display: block;
+    margin-top:-60px;
+    margin-left:30px;
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid #fdbf37;
+    padding: 14px 110px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    font-size:14px;
+    /* transition: 0.25px; */
+
+}
+        
+    </style>
+    </head>
+<body>
+<div class="regform"><h1> Student Registration Portal</h1></div>
+    <div class="main">
+<form>
+  <div class="">
+    <div class="col">
+    <label for="inputfirstname" class="firstlabel" >First Name</label>
+      <input type="text" class="firstname" placeholder="firstname">
+    </div>
+    <div class="col">
+    <label for="inputLastname" class="lastlabel">Last Name</label>
+      <input type="text" class="lastname" placeholder="lastname">
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputmatric" class="matric">Matric No.</label>
+      <input type="text" class="form-control" id="inputmatric" placeholder="Matric no.">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputDepartment" class="department" >Department</label>
+      <input type="text" class="dpt" id="inputDepartment" placeholder="Department">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputcourse" class="course" >Course</label>
+      <input type="text" class="crs" id="inputcourse" placeholder="Course">
+    </div>
+    
+  </div>      
+  <div class="form-row">    
+    <div class="form-group col-md-4">
+      <label for="inputLevel" class="level" >Level</label>
+      <select id="inputLevel" class="le">
+        <option selected>Choose...</option>
+        <option>ND1</option>
+         <option>ND2</option>
+        <option>HND1</option>
+        <option>HND2</option>
+      </select>
+    </div>
+
+    <div class="form-group col-md-4">
+      <label for="inputSemester" class="semester">Semester</label>
+      <select id="inputSemester" class="smr">
+        <option selected>Choose...</option>
+        <option>First</option>
+         <option>Second</option>
+        
+      </select>
+    </div>
+
+        <div class="form-group col-md-4">
+      <label for="inputGender" class="gender">Gender</label>
+      <select id="inputGender" class="gen">
+        <option selected>Choose...</option>
+        <option>Male</option>
+         <option>Female</option>
+
+      </select>
+    </div>
+
+    </div>
+    <button type="submit" class="btn btn-warning">Register</button>
+</form>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

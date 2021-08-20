@@ -1,0 +1,64 @@
+.containerfluid{
+    margin:0%;
+    padding: 0%;
+    width: 100%;
+    height: 100vh;
+    font-family:poppins;
+    background-image: url('nature imae.jpg');
+    background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     backdrop-filter: transparent(100px);
+    }
+    .logo{
+        width: 50px;
+        height: 50px;
+        border-radius: 30px;
+    }
+
+    .navbar-nav > li{
+        margin-left:20px;
+        margin-right:20px;
+      }
+      #hot li a:hover{
+          background: #45e621;
+          border-radius: 10px;
+      }
+      
+
+    .writeup{
+        justify-content: center;
+        text-align: center;
+        color:white;
+        margin-top:200px;
+        font-size: 70px;
+        
+    }
+
+    .tiny{
+        justify-content: center;
+        text-align: center;
+        color:rgb(14, 11, 10);
+    font-size: 25px;
+    margin-top: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    }
+
+    #butt{
+        background-color: rgb(252, 72, 7);
+        border-radius: 30px;
+        margin-left:20px;
+        margin-right:20px;
+        width: 220px !important;
+        margin-top: 0px;
+    }
+    /* .overlay{
+        background: #0000008a;
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left:0;
+         z-index: 1;
+    } */
